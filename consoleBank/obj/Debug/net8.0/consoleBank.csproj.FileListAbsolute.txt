@@ -1,0 +1,15 @@
+C:\Users\decon\Documents\becode\.net\consoleBank\bin\Debug\net8.0\consoleBank.exe
+C:\Users\decon\Documents\becode\.net\consoleBank\bin\Debug\net8.0\consoleBank.deps.json
+C:\Users\decon\Documents\becode\.net\consoleBank\bin\Debug\net8.0\consoleBank.runtimeconfig.json
+C:\Users\decon\Documents\becode\.net\consoleBank\bin\Debug\net8.0\consoleBank.dll
+C:\Users\decon\Documents\becode\.net\consoleBank\bin\Debug\net8.0\consoleBank.pdb
+C:\Users\decon\Documents\becode\.net\consoleBank\obj\Debug\net8.0\consoleBank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\decon\Documents\becode\.net\consoleBank\obj\Debug\net8.0\consoleBank.AssemblyInfoInputs.cache
+C:\Users\decon\Documents\becode\.net\consoleBank\obj\Debug\net8.0\consoleBank.AssemblyInfo.cs
+C:\Users\decon\Documents\becode\.net\consoleBank\obj\Debug\net8.0\consoleBank.csproj.CoreCompileInputs.cache
+C:\Users\decon\Documents\becode\.net\consoleBank\obj\Debug\net8.0\consoleBank.sourcelink.json
+C:\Users\decon\Documents\becode\.net\consoleBank\obj\Debug\net8.0\consoleBank.dll
+C:\Users\decon\Documents\becode\.net\consoleBank\obj\Debug\net8.0\refint\consoleBank.dll
+C:\Users\decon\Documents\becode\.net\consoleBank\obj\Debug\net8.0\consoleBank.pdb
+C:\Users\decon\Documents\becode\.net\consoleBank\obj\Debug\net8.0\consoleBank.genruntimeconfig.cache
+C:\Users\decon\Documents\becode\.net\consoleBank\obj\Debug\net8.0\ref\consoleBank.dll
