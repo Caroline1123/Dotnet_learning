@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = consoleBank
-build_property.ProjectDir = C:\Users\decon\Documents\becode\.net\consoleBank\
+build_property.ProjectDir = C:\Users\decon\Dotnet_learning\consoleBank\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
