@@ -1,49 +1,52 @@
 ﻿public class BankAccount {
-    private int? balance;
-    private string? client;
-    private string? type;
+    private int balance;
+    private Client accountClient;
+    private string type;
 
-    public int? Balance {
+    public int Balance {
         get {return balance; }
-        set { 
-            if (value < 0) {
-                throw new ArgumentException("The balance may not be negative.")
-            }
-            balance = value;
-        }
     }
 
-    public string? Client {
-        get { return client; }
-        set { client = value; }
+    public Client AccountClient{
+        get { return accountClient; }
+        set { accountClient = value; }
     }
 
-    public string? Type {
+    public string Type {
         get { return type; }
         set { string[] accountTypes= {"business", "eco", "trading"};
-            // bool typeExists = accountTypes.Any(t => t.Equals(value => StringComparison.OrdinalIgnoreCase));
             bool typeExists = accountTypes.Contains(value.ToLower());
             if (typeExists) {
                 type = value.ToLower(); }
         }
     }
 
-    public BankAccount(int balance, string client, string type) {
-        this.Balance = balance;
-        this.Client = client;
+    public BankAccount(int balance, Client client, string type) {
+        this.balance = balance;
+        this.AccountClient = client;
         this.Type = type;
     }
 
-    public void CheckBalance {
-        //  Do something...
+    public void CheckBalance()
+    {
+        Console.WriteLine($"{this.AccountClient.Name} currently has {this.Balance} EUR to their account.");
     }
 
-    public void Withdraw {
-        //  Do something...
+    public void Withdraw(int amount) 
+    {
+        if (this.balance >= amount)
+        {
+            this.balance -= amount;
+        }
+        else
+        {
+            throw new ArgumentException("Balance may not be negative.");
+        }
     }
 
-    public void Deposit {
-        //  Do something...
+    public void Deposit(int amount)
+    {
+        this.balance += amount;
     }
 
 }
